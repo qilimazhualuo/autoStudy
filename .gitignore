@@ -1,0 +1,15 @@
+# 登录会话与运行数据：state.json 等同免密凭证，绝不可提交
+data/
+
+# 依赖
+node_modules/
+
+# 本地工作区笔记、调研与诊断临时文件
+.workbuddy/
+.research/
+.diag/
+
+# 其它
+*.log
+captcha.png
+.DS_Store

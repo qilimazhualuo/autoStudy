@@ -1,0 +1,17 @@
+{
+  "name": "gis-auto-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "地理信息安全在线培训 - 无头浏览器自动挂课",
+  "scripts": {
+    "login": "node cli.js login",
+    "login:headless": "node cli.js login --headless",
+    "discover": "node cli.js discover",
+    "status": "node cli.js status",
+    "reset": "node cli.js reset",
+    "study": "node cli.js study"
+  },
+  "dependencies": {
+    "playwright": "^1.65.0"
+  }
+}

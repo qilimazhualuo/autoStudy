@@ -1,0 +1,25 @@
+{
+  "baseUrl": "https://gistraining.webmap.cn/",
+
+  "headless": true,
+  "browserChannel": "chrome",
+  "browserExecutablePath": "",
+
+  "targetHours": 12,
+
+  "minutesPerItem": 12,
+  "actionIntervalSec": 45,
+  "heartbeatIntervalSec": 50,
+
+  "enableHeartbeatFallback": false,
+  "heartbeatPath": "index.php?course-app-course-ajax-updatestudytime&studytime=50",
+
+  "autoPlayVideo": true,
+  "muteVideo": true,
+
+  "loginTimeoutSec": 300,
+  "pageLoadTimeoutMs": 30000,
+  "retryWaitSec": 30,
+
+  "logLevel": "info"
+}
